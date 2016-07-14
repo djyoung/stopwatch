@@ -1,0 +1,45 @@
+body {
+  background: #303030;
+  color: rgba(255, 255, 255, 0.95);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.timer {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  border: 5px solid;
+  border-radius: 50%;
+}
+
+.time {
+  width: 100%;
+  padding-top: 114px;
+  text-align: center;
+  line-height: 64px;
+}
+
+.reset {
+  position: relative;
+  top: 200px;
+  left: -60%;
+  font-size: 18px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.large {
+  font-size: 72px;
+}
+
+.small {
+  font-size: 36px;
+}
